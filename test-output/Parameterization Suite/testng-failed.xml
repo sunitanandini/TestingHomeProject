@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Parameterization Suite]" parallel="none">
+  <parameter name="password" value="Selenium@123"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="emailid" value="seleniumpanda@rediffmail.com"/>
+  <parameter name="url" value="https://rediffmail.com"/>
+  <test name="Parameterization Test(failed)" parallel="none">
+    <parameter name="password" value="Selenium@123"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="emailid" value="seleniumpanda@rediffmail.com"/>
+    <parameter name="url" value="https://rediffmail.com"/>
+    <classes>
+      <class name="com.automation.library.ParameterizingUsing_TestNGxml">
+        <methods>
+          <include name="Rediff" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.automation.library.ParameterizingUsing_TestNGxml -->
+    </classes>
+  </test> <!-- Parameterization Test(failed) -->
+</suite> <!-- Failed suite [Parameterization Suite] -->
