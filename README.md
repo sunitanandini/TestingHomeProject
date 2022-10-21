@@ -1,4 +1,4 @@
-#Testing Project for The Great Courses : https://www.thegreatcourses.com/
+# Testing Project for The Great Courses : https://www.thegreatcourses.com/
 
 
 As part of this project I wrote test cases in Java using Selenium to test for user Buying cycle.
